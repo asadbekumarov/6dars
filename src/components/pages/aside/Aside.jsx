@@ -1,5 +1,5 @@
 import React from "react";
-import AsideCom from "../../aside/AsideCOm";
+import AsideCom from "../../aside/AsideCom";
 
 const Aside = () => {
   return (
