@@ -1,0 +1,20 @@
+.layout-main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.layout-main>* {
+    display: flex;
+    
+}
+
+aside {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.hero {
+    background-color: #e0e0ff;
+    padding: 10px;
+}
