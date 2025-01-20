@@ -11,7 +11,7 @@ const HeaderCom = () => {
     window.location.href = "/login";
   };
   return (
-    <div>
+    <div className="shadow-[0_0.5rem_1rem_rgba(0,0,0,0.15)]">
       <div className="max-w-[1920px] m-auto px-3 ">
         <div className="flex justify-between items-center py-2">
           <div className="flex gap-2 items-center">

@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/pages/layout/Layout";
 import NotFound from "./components/notFound/NotFound";
-import Home from "./components/pages/home/Home";
 import Login from "./components/login/Login";
 import PrivateRoute from "./components/privteroute/PriviteRoutee";
+import Register from "./components/pages/home/register";
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
           </PrivateRoute>
         }
       >
-        <Route index element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Route>
+      <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
     </Routes>
   );
