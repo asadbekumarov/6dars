@@ -3,7 +3,7 @@ import Layout from "./components/pages/layout/Layout";
 import NotFound from "./components/notFound/NotFound";
 import Login from "./components/login/Login";
 import PrivateRoute from "./components/privteroute/PriviteRoutee";
-import Register from "./components/pages/home/register";
+import Register from "./components/pages/home/Register";
 
 function App() {
   return (
